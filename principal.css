@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.portada{
+	padding: 20px;
+	display: flex;
+}
+.portada-item{
+	flex-basis: 50%;
+}
+.tituloColegio{
+	background: #0099CC;
+	border-radius: 10px;
+	box-sizing: border-box;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	font-size: 300%;
+	padding: 10px;
+	text-align: center;
+	height: 420px;
+	width: 100%;
+}
+.estadisticas{
+	float: right;;
+	width: 400px;
+	height:auto;
+	border:solid 2px #0066CC;
+	padding: 10px 10px 0px 10px;
+}
+.estadistica-item{
+	display: flex;
+}
+.estadisticas .numero, .estadisticas .esta{
+	padding:2%;
+	height: 20px;
+}
+.estadisticas .esta{
+	background: #0099CC;
+	color: white;
+	flex-basis: 80%;
+	font-weight: bold;
+}
+.estadisticas .numero{
+	background: #006699;
+	color: white;
+	flex-basis: 20%;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+

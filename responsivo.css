@@ -1,0 +1,9 @@
+
+@media (max-width:946px){
+	.portada{
+		display: block;
+	}
+	.estadisticas{
+		margin-top: 30px;
+	}
+}
